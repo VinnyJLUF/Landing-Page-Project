@@ -1,13 +1,13 @@
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
-	width: 59.1%;
+	width: 60%;
 	padding: 1.1%;
 	border: none;
 	margin: 0 auto;
 }
 .top-navigation > .content {
-	width: 765px;
+	width: 790px;
 	height: 45px;
 	padding: 0px 15px;
 }
@@ -41,7 +41,26 @@ html {
 .introduction {
 	background-image: url('../css/images/first-background.jpg');
 	background-position: 0 bottom;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+}
+.introduction > .content {
+	width: 50%;
+	padding: 13% 25%;
+	border: 6px none;
+}
+.introduction > .content > h1 {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Roboto';
+	font-size: 50px;
+	color: White;
+}
+.introduction > .content > h3 {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Roboto';
+	font-size: 25px;
+	color: White;
 }
