@@ -7,16 +7,16 @@
 	margin: 0 auto;
 }
 .top-navigation > .content {
-	width: 770px;
-	height: 70px;
-	padding: 0px 5px;
+	width: 765px;
+	height: 45px;
+	padding: 0px 15px;
 }
 .top-navigation .links {
 	float: right;
 	font-family: 'Roboto', sans-serif;
 	color: #838994;
-	font-size: 16px;
-	margin-top: 25px;
+	font-size: 17px;
+	margin-top: 15px;
 	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -39,8 +39,8 @@ html {
 }
 /* Introduction Section */
 .introduction {
-	background-image: url(' .. /images/first-background.jpg');
-	background-position: center bottom;
+	background-image: url('../css/images/first-background.jpg');
+	background-position: 0 bottom;
 	background-repeat: no-repeat
 	background-size: cover;
 	height: 45.938rem;
