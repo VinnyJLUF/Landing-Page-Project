@@ -1,7 +1,8 @@
 /* Navigation Section */
 .top-navigation {
+	position: fixed;
 	background-color: #fff;
-	width: 60%;
+	width: 100%;
 	padding: 1.1%;
 	border: none;
 	margin: 0 auto;
@@ -39,6 +40,7 @@ html {
 *, *: before, *: after {
 	box-sizing: inherit;
 }
+
 /* Introduction Section */
 .introduction {
 	background-image: url('../css/images/first-background.jpg');
@@ -68,17 +70,62 @@ html {
 	color: White;
 	margin: 0 0 20px 0;
 }
-.buttons {
-	width: 9.688rem;
+.big-buttons-one {
+	width: 10rem;
+	margin: 0 auto;
+}
+.big-buttons {
+	width: 10rem;
+	color: White;
 	background-color: #f15a29;
 	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 1rem 1.5rem; 
+	padding: 20px 26px;
+	line-height: 1.33; 
 	margin: 0 auto;
 }
+.big-buttons: Hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
+}
 
+/* Case selection */
+.cases {
+	background-color: #fff0
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+ol, ul {
+	list-style: none;
+}
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
